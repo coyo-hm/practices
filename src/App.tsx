@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Animations from "./components/Animations";
 
 const Container = styled.div`
   width: fit-content;
@@ -11,7 +12,11 @@ const Container = styled.div`
 `;
 
 function App() {
-  return <Container></Container>;
+  return (
+    <Container>
+      <Animations />
+    </Container>
+  );
 }
 
 export default App;
