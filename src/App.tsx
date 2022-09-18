@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Animations from "./components/Animations";
+import BoundDrag from "./components/BoundDrag";
 import Drag from "./components/Drag";
 import Gestures from "./components/Gestures";
 import Variant from "./components/Variant";
@@ -21,6 +22,7 @@ function App() {
       <Variant />
       <Gestures />
       <Drag />
+      <BoundDrag />
     </Container>
   );
 }
