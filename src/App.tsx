@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Animations from "./components/Animations";
+import Variant from "./components/Variant";
 
 const Container = styled.div`
   width: fit-content;
@@ -15,6 +16,7 @@ function App() {
   return (
     <Container>
       <Animations />
+      <Variant />
     </Container>
   );
 }
