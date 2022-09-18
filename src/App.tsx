@@ -19,6 +19,7 @@ function App() {
       <Animations />
       <Variant />
       <Gestures />
+      <Drag />
     </Container>
   );
 }
