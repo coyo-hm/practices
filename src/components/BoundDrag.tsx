@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Wrapper as BoxWrapper, Box as DefaultBox } from "../style";
 
 const Wrapper = styled(BoxWrapper)`
-  background: linear-gradient(135deg, #453bb1, #1b1464);
+  background: linear-gradient(135deg, #dff9fb, #c7ecee);
 `;
 
 const BiggerBox = styled.div`
@@ -25,7 +25,7 @@ const boxVariants = {
   hover: { rotateZ: 90 },
   tap: { borderRadius: "50%" },
   drag: {
-    backgroundColor: "rgb(24, 13, 97)",
+    backgroundColor: "rgb(109, 203, 208)",
     transition: { duration: 2 },
   },
 };

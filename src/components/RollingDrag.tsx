@@ -17,9 +17,9 @@ function RollingDrag() {
     x,
     [-70, 0, 70],
     [
-      "linear-gradient(135deg, rgb(104, 105, 141), rgb(48, 51, 107))",
-      "linear-gradient(135deg, rgb(48, 51, 107), rgb(19, 15, 64))",
-      "linear-gradient(135deg, rgb(19, 15, 64), rgb(4, 1, 33))",
+      "linear-gradient(135deg, rgb(199, 236, 238), rgb(126, 214, 223))",
+      "linear-gradient(135deg, rgb(126, 214, 223), rgb(34, 166, 179))",
+      "linear-gradient(135deg, rgb(34, 166, 179), rgb(4, 1, 33))",
     ]
   );
 
