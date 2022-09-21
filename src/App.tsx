@@ -4,6 +4,7 @@ import BoundDrag from "./components/BoundDrag";
 import Drag from "./components/Drag";
 import Gestures from "./components/Gestures";
 import RollingDrag from "./components/RollingDrag";
+import Scroll from "./components/Scroll";
 import Variant from "./components/Variant";
 
 const Container = styled.div`
@@ -25,6 +26,7 @@ function App() {
       <Drag />
       <BoundDrag />
       <RollingDrag />
+      <Scroll />
     </Container>
   );
 }
